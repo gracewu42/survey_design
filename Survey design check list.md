@@ -26,7 +26,7 @@ Survey design check list
   * [Response format & scales](#response-format---scales)
   * [Response heuristics](#response-heuristics)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # Survey interface【形式】
 

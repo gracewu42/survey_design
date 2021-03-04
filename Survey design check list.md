@@ -2,7 +2,31 @@ Survey design check list
 
 [TOC]
 
+- [Survey interface【形式】](#survey-interface----)
+  * [It needs to look good](#it-needs-to-look-good)
+  * [First page](#first-page)
+  * [Thank you & contact information](#thank-you---contact-information)
+  * [Interviewer instructions](#interviewer-instructions)
+  * [Numbering questions](#numbering-questions)
+  * [Fitting questions on pages/screen](#fitting-questions-on-pages-screen)
+  * [Ordering questions](#ordering-questions)
+  * [Types of questions](#types-of-questions)
+- [Questions and response options【内容】](#questions-and-response-options----)
+  * [Ensure consistent response](#ensure-consistent-response)
+  * [4 reasons respondents fail to answer factual questions and how to do](#4-reasons-respondents-fail-to-answer-factual-questions-and-how-to-do)
+  * [Stylish responding and how to do](#stylish-responding-and-how-to-do)
+  * [Subjective questions (increase validity)](#subjective-questions--increase-validity-)
+  * [Pitfalls/check list](#pitfalls-check-list)
+  * [Redflag words in question wording](#redflag-words-in-question-wording)
+- [Web survey design settings 【设置】](#web-survey-design-settings-----)
+  * [Avoid breakoffs](#avoid-breakoffs)
+  * [Distribute web survey](#distribute-web-survey)
+  * [Basic design](#basic-design)
+  * [Question setting](#question-setting)
+  * [Response format & scales](#response-format---scales)
+  * [Response heuristics](#response-heuristics)
 
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Survey interface【形式】
 
@@ -118,7 +142,7 @@ the most important and cheapest way to improve data is to increase reliability
 1. make sure each respondent is asked the same question
    
 - interviews should be entirely scripted (otherwise different things will be said to different people, and selected explanations & process will only be given to a certain people)
-   
+  
 2. wording should be complete (otherwise different people will interpret the question differently)
 
 3. wording should be simple, straightforward, and as short as possible (otherwise comprehension breaks down)

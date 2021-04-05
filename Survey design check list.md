@@ -1,30 +1,28 @@
 Survey design check list
 
-[TOC]
-
-- [Survey interface【形式】](#survey-interface----)
-  * [It needs to look good](#it-needs-to-look-good)
-  * [First page](#first-page)
-  * [Thank you & contact information](#thank-you---contact-information)
-  * [Interviewer instructions](#interviewer-instructions)
-  * [Numbering questions](#numbering-questions)
-  * [Fitting questions on pages/screen](#fitting-questions-on-pages-screen)
-  * [Ordering questions](#ordering-questions)
-  * [Types of questions](#types-of-questions)
-- [Questions and response options【内容】](#questions-and-response-options----)
-  * [Ensure consistent response](#ensure-consistent-response)
-  * [4 reasons respondents fail to answer factual questions and how to do](#4-reasons-respondents-fail-to-answer-factual-questions-and-how-to-do)
-  * [Stylish responding and how to do](#stylish-responding-and-how-to-do)
-  * [Subjective questions (increase validity)](#subjective-questions--increase-validity-)
-  * [Pitfalls/check list](#pitfalls-check-list)
-  * [Redflag words in question wording](#redflag-words-in-question-wording)
-- [Web survey design settings 【设置】](#web-survey-design-settings-----)
-  * [Avoid breakoffs](#avoid-breakoffs)
-  * [Distribute web survey](#distribute-web-survey)
-  * [Basic design](#basic-design)
-  * [Question setting](#question-setting)
-  * [Response format & scales](#response-format---scales)
-  * [Response heuristics](#response-heuristics)
+- [Survey interface【形式】](#survey-interface形式)
+  - [It needs to look good](#it-needs-to-look-good)
+  - [First page](#first-page)
+  - [Thank you & contact information](#thank-you--contact-information)
+  - [Interviewer instructions](#interviewer-instructions)
+  - [Numbering questions](#numbering-questions)
+  - [Fitting questions on pages/screen](#fitting-questions-on-pagesscreen)
+  - [Ordering questions](#ordering-questions)
+  - [Types of questions](#types-of-questions)
+- [Questions and response options【内容】](#questions-and-response-options内容)
+  - [Ensure consistent response](#ensure-consistent-response)
+  - [4 reasons why respondents fail to answer factual questions and how to do](#4-reasons-why-respondents-fail-to-answer-factual-questions-and-how-to-do)
+  - [Stylistic responding and how to do](#stylistic-responding-and-how-to-do)
+  - [Subjective questions (increase validity)](#subjective-questions-increase-validity)
+  - [Pitfalls/check list](#pitfallscheck-list)
+  - [Redflag words in question wording](#redflag-words-in-question-wording)
+- [Web survey design settings 【设置】](#web-survey-design-settings-设置)
+  - [Avoid breakoffs](#avoid-breakoffs)
+  - [Distribute web survey](#distribute-web-survey)
+  - [Basic design](#basic-design)
+  - [Question setting](#question-setting)
+  - [Response format & scales](#response-format--scales)
+  - [Response heuristics](#response-heuristics)
 
 
 
@@ -39,7 +37,7 @@ Survey design check list
 
 - Put your university at the beginning
 - should contain: name, where are you from, the purpose of the study, conditions (voluntary, anonymous, etc.)
-- *To begin, just scroll down and click the "next" button*
+>  *To begin, just scroll down and click the "next" button.*
 
 ## Thank you & contact information
 
@@ -97,37 +95,43 @@ Survey design check list
   - should be done in a non-threatenning way
   - should not be income questions (most sensitive, respondents will quit or skip it)
 
-## Types of questions
+## Types of questions 
+
+ [Dillman, Smyth, and Christian, 2014, p. 110](https://www.wiley.com/en-us/Internet%2C+Phone%2C+Mail%2C+and+Mixed+Mode+Surveys%3A+The+Tailored+Design+Method%2C+4th+Edition-p-9781118456149)
 
 - Open-ended questions
 
-> - advantages: provide the riches detail; closely proximate what people actually think; great for pretest; provide answers theoretically impossible to provide; allow for unanticipated answers. 
+> - advantages: provide the richest detail; closely proximate what people actually think; great for pretest (if you don't know what the relevant response options will be, do a pretest using open-ended questions and figure them out); sometimes answers theoretically too long to provide (there may be hundreds of possible reponses); allow for unanticipated answers. 
 >
 > - disadvantages: put higher burden on respondents (tend to skip them); time consuming; contain irrelevant words; hard to answer on smart phones or on telephone; contain errors; difficult to code and interpret.
 
-- close-ended questions (99% of times they are the best options)
+- close-ended questions (99% of the cases they are the best options)
 
 > - advantages: more practical; alreadly coded; more reliable for respondents and researchers (they don't love to interpret it)
 > - disadvantages: accuracy concerns; may leave out important categories; lose detail
 
 - close-ended question with an open-ended stem (other option)
 
-> - question: what do you think... / which of the following... (always highest in the list)
-> - should be able to guess responses
-> - 43% vs 8% in close-ended question specifying other category
-> - 12% uninterpretable in open-ended questions
-> - 0.8%/0% vs 41.2% missing in open-ended questions
+> - question stem and response options should match: repondents should be able to guess responses types. See [19 in Pitfalls/check list](#pitfallscheck-list).
+> - Format affects responses (See split ballot experiment from [Pew Research, 2008](https://www.questionpro.com/blog/what-are-open-ended-questions/))
+>   - People who got the close-ended question with an other option were always more likely to select from the list, rather than volunteer to write anything else 
+>   - almost nobody (8%) who got the close-ended question with other category used the "other" category (vs 43% of those who got open-ended questions)
+> - Open-ended question generated more missing data ([Reja et al., 2003](https://www.researchgate.net/publication/242672718_Open-ended_vs_Close-ended_Questions_in_Web_Questionnaires))
+>   - 12% uninterpretable in open-ended questions
+>   - 0.8%/0% missing in close-ended questions vs 41.3% missing (due to skipping or not interpretable) in open-ended questions
 
 - matrix questions with Likert statements (a series of questions sharing the same response scale, like level of agreement/acceptability/support/frequencies)
-  - first couple of items should be in opposite direction
-  - shadowing to differentiate the rows
+  - first couple of items should be in opposite direction so that the degree of one differs with the degree of another (if in the first item higher scores indicates more, in the second item higher scores should indicate less)
+  - shading to differentiate the rows
+  - reserve matrix questions for scales (that are related to each other); if the questions are not related to each other, not recommmended (meta analyses showed mixed results, the effects are probably small, but not recommended to do so) because respondents get the mindset that the items are related to each other
 
-> - advantages: use space more efficiently; easier for respondents to do; set the items being comparable
+> - advantages: use space more efficiently; easier for respondents to do; let respondents see the items being parallel (they are measuring the same thing); set the items being comparable
+> - disadvantages: increase the risk that people just respond in the same way to all the items (that's way items in the same directions tend to fail); increase missingness (people may accidentally skip a row or answer in the wrong row; that's why we should shade the rows)
 
-- contingency questions (based on anwers to some screening questions)
+- contingency questions (questions asked to different subgroups based on anwers to some screening questions)
 
 > - advantages: respondents won't answer irrelevant questions
-> - disadvantages: hard to do (huge errors) unless using computers 
+> - disadvantages: hard to do (skipping causes huge errors) unless using computers; 30% of the people get it wrong ([Dillman, Smyth, and Christian, 2014, p. 106](https://www.wiley.com/en-us/Internet%2C+Phone%2C+Mail%2C+and+Mixed+Mode+Surveys%3A+The+Tailored+Design+Method%2C+4th+Edition-p-9781118456149)); the good news is computer does it automatically and most of the times you can frame the questions in a way that they don't have to be contingent
 
 ---
 
@@ -135,83 +139,116 @@ Survey design check list
 
 # Questions and response options【内容】
 
+[Fowler, 2013, Chapter 6](https://uk.sagepub.com/sites/default/files/upm-binaries/23856_Chapter6.pdf)
+
+[Bradburn, Sudman, and Wansink, 2004](https://www.amazon.com/Asking-Questions-Definitive-Questionnaire-Questionnaires/dp/0787970883/ref=sr_1_6?dchild=1&keywords=asking+questions&qid=1617482194&s=books&sr=1-6)
+
+[Schuman and Presser, 1996](https://www.amazon.com/SCHUMAN-ATTITUDESURVEYS-EXPERIMENTS-Experiments-Quantitative-dp-0761903593/dp/0761903593/ref=mt_other?_encoding=UTF8&me=&qid=1617482376)
+
+
+
+A bad example:
+
+> [Harvard 2017 poll about how we should handle Iran Nuke Deal](https://theintercept.com/2017/10/28/renegotiate-iran-deal-harvard-harris-poll-mark-penn/):
+>
+> Some people say that the Iran nuclear deal is not perfect and the Iranians are building up their nuclear capability secretly, but we should not rock the boat now and just let it all slide along. Others say if Iranians are not compliant we have to call them out on it and push to renegotiate the deal with real verification. What would be your preferred course of action?
+>
+> - clearly biased because it assumed Iran violated the deal
+> - "Some...others" issue, see [17 in Pitfalls/check list](#pitfallscheck-list).
+
 ## Ensure consistent response
 
-the most important and cheapest way to improve data is to increase reliability
+improve reliability
 
 1. make sure each respondent is asked the same question
    
-- interviews should be entirely scripted (otherwise different things will be said to different people, and selected explanations & process will only be given to a certain people)
+   - interviews should be entirely scripted (otherwise different things will be said to different people, and selected explanations & process will only be given to a certain people)
   
 2. wording should be complete (otherwise different people will interpret the question differently)
 
-3. wording should be simple, straightforward, and as short as possible (otherwise comprehension breaks down)
+3. wording should be simple, straightforward, and as short as possible (otherwise comprehension breaks down and people will be responding to different questions. The more complex the question, the more difficult the comprehension, the more you are going to have variation in ways people comprehend the question)
 
 4. consistent meaning: words need to mean the same thing for everybody
 
-   - avoid terms that are not universally understood
-   - if terms are vague or ambiguous, define them differently
+   - avoid terms that are not universally understood/jagon/slang
+
+     > eg. "status offense," "capitalism"
+
+   - if terms are vague or ambiguous, people are going to define them differently
+
+     > eg. "gun control" will be vague (handgun or other guns? how long the control will last?)
+
    - if terms are not vague but have inconsistent meaning for different people, avoid them
+
+     > eg. "neighborhood" does not have a clear definition, and has different meanings for people living in different  (urban/rural) areas
+     >
+     > eg. "breakfast" has different meaning for different people, some people interpret it as eggs and bread, others may interpret it as smoothie 
 
 5. for open-ended questions, clarify acceptable type of answers (words or numbers)
 
-   > eg. smaller box for MM, larger box for YYYY
+   > eg. Q: When was the first time you were arrested? should specify what types of answer is wanted, a specific year, a long time ago, or when I was a child? 
+   >
+   > eg. box size changes the way people respond; should use smaller box for MM, larger box for YYYY
    >
    > <textarea cols="2" rows="1">  </textarea>  MM <textarea cols="4" rows="1">  </textarea> YYYY 
 
-6. avoid double-barrel questions (they reduce reliability)
-7. avoid jargon & complex words/phrases (otherwise respondents would say don't know or the results will be less reliable)
+6. avoid double-barrel questions (they reduce reliability, people will choose one aspect to answer, and different people answer different questions)
+7. avoid biased questions
 
-## 4 reasons respondents fail to answer factual questions and how to do
+## 4 reasons why respondents fail to answer factual questions and how to do
 
 1. respondents don't understand the question
    - make it easier
-
 2. respondents don't know the answer
+   - ask what people would know
 3. respondents cannot recall
-   - Make it salient; recent; add cues
-   - the reference period should be tailored to subjects
+   - Make it salient; recent; add cues/hints
+   - the reference period should be tailored to subjects: should be a likely to recall period of time; for things that frequently happen, use shorter reference period; for things that rarely happen but salient, you can use longer reference period
 4. they don't want to tell you （social desirability bias)
    - use self-administered survey
-   - tell the respondents the survey is anonymous and confidential
+   - tell the respondents the survey is anonymous or at least confidential
 
 
 
-## Stylish responding and how to do
+## Stylistic responding and how to do
 
 respond in similar consistent way, regardless of the context
 
-|                                                              | Bias           |
-| ------------------------------------------------------------ | -------------- |
-| Acquiescence response style [XXXOOO]<br />tendency to affirmatively choose, regardless of the context; 10% | positive bias  |
-| Disacquiescence response style [OOOXXX]<br />disagree consistently | positive bias  |
-| midpoint response style [XXXOXXX]                            | positive error |
-| extreme response style<br />go for the most extreme response | depends        |
-| mild response style<br />always give middle response         | Depends        |
+| Response style                                               | Bias                                                         |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Acquiescence response style [XXXOOO] ([Pickett & Baker, 2014](https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-9125.12035))<br />tendency to affirmatively choose (3 agree options), regardless of the context; 10% people use acquiescence response | positive bias<br /> brings positive error variance and waters down the origianal negative relationship, push it to 0 |
+| Disacquiescence response style [OOOXXX]<br />disagree consistently | positive bias<br />introduce positive error variance         |
+| midpoint response style [XXXOXXX]                            | positive error<br />introduce positive variance, increase correlations |
+| extreme response style<br />go for the most extreme response | Depends                                                      |
+| mild response style<br />always give middle response, never use extreme response | Depends                                                      |
 
-- use balanced scale to push to the middle
+- use balanced scale to push to the middle so that it doesn't have an effect (does not address midpoint, but it is not as common)
 
-- midpoint is not as common
+- representative corresponsive index/representative indicator corresponsive style index
 
-  - representative corresponsive index
+  - construct groups of uncorrelated items, count the stylistic responses, make indicators, and residualize whatever scales you are working with (regress DV on indicators and save the residuals, remove the variance of the scale due to response styles; or use SEM to measure them)
 
-  - groups of uncorrelated items
-
-    > eg. I like Apples more than oranges 
+    >  eg. *I like Apples more than oranges.* 
 
 
 
 ## Subjective questions (increase validity)
 
-1. face validity
+asking about attitudes/perceptions/believes
 
-2. content validity
+shoot for two types of validity
 
-   - use more than 1 question, and combine them to create a scale
+1. face validity: look reasonable on its face; look like it's measuring what you want to measure
+
+2. content validity: cover full domain of a construct
+
+   - ask more than 1 question, and combine them to create a scale (any given item has some randomness in it)
 
    - make sure all dimensions of a concept are covered and all subcategories are covered
 
-     > eg. fear of crime scale consists of 4 -5 questions covering violent/nonviolent, severe/nonsevere crimes
+     > eg. [GSS](https://gssdataexplorer.norc.org/trends/Civil%20Liberties?measure=fear) question for fear of crime (*Will you be afraid to walk alone at night?*) is highly criticized because it does not mention crime
+     >
+     > eg. fear of crime scale should consist of 4 -5 questions covering violent/nonviolent, severe/nonsevere crimes ([Ferraro, 1995](https://books.google.com/books/about/Fear_of_Crime.html?id=1jbFGhBl4hMC))
 
 ## Pitfalls/check list
 
@@ -223,15 +260,17 @@ respond in similar consistent way, regardless of the context
 
 - [ ] 3. question too long?
 
-  - trim the question by 10%; keep only necessary words to faster the survey
+  - trim the question by 10% ([King, 2000](https://www.amazon.com/Writing-Memoir-Craft-Stephen-King-ebook/dp/B000FC0SIM)); Even if it is not complex, every word is still time. Keep only necessary words to faster the survey
 
 - [ ] 4. question unbalanced? leading or suggesting an answer?
 
-  - don't forget to mention the other side
+  - don't forget to mention the other side of information
 
 - [ ] 5. prestige bias (someone people have positive or negative opinion about)?
 
   - don't unnecessarily include someone who the repondents will support or oppose
+
+    > eg. "How much do you agree" is leading; you should ask "How much do you agree or disagree"
 
 - [ ] 6. universal?
 
@@ -242,25 +281,30 @@ respond in similar consistent way, regardless of the context
   > Question order effect:
   >
   > - people want to be consistent
-  > - priming: bring things up that you might not think about
-  > - interpretation
+  >
+  > - priming: bring to mind things you might not have thought about
+  >
+  > - affect the interpretation of the following question
+  >
+  >   [eg](https://www.qualtrics.com/blog/biased-data-is-bad-data-how-to-think-about-question-order/). 55% of Americans said we should let reporters from Soviet Union come in; But when this question was preceeded by the question about whether or not American journalists should be allowed into the Soviet Union, 75% said we should let them come in  
+  >   eg. [NLSY97](https://www.nlsinfo.org/sites/nlsinfo.org/files/attachments/121128/nlsy97r1ysaq.html) Q389 asked about specific activities, Q439 and below asked about arrest experience, Q513 asked about perceived arrest rate  
+  >   Bad order: being asked about actual arrest experience may remind the respondents and change the perception. This order ties the perceived arrest rate more strongly to actual arrest experience.   
+  >   But perceived arrest rate is not going to change the actual arrest experience. Therefore perceived arrest question should come before, actual arrest question comes after
 
   - global questions should come first, specific questions should come after them
 
+  - ask the outcome variable before the predictors so that you don't prime the predictors ahead of time
+
   - randomize question order to balance it out 
 
-    > eg. NLSY97 - 389
-    >
-    > eg. perceived arrest question comes before, this arrest question comes after (link arrest perception to actual arrest experience)
 
 - [ ] 9. negative and double negative questions?
 
-  - don't use "not" in questions
-  - don't know should not have been there
+  - don't use "not" in questions: harder for people to understand negation
+  
+- [ ] 10. don't use modifying adjectives 
 
-- [ ] 10. using modifying adjectives 
-
-  > eg. replace "occasionally" with "seldom," "occasionally" is vague
+  > eg. "occasionally," "seldom," "occasionally." They are vague and different people have different interpretation
 
 - [ ] 11. when to add don't know option
 
@@ -269,61 +313,86 @@ respond in similar consistent way, regardless of the context
   > eg. people tend to undecided for voting: better to add don't know option
   >
   > eg. death penalty question: better not to add
+  >
+  > eg. for voting, add "undecided"
 
 - [ ] 12. when asking about numbers
 
-  - should use standardized scale (more comparable)
+  - should use standardized scale (numbers are more comparable than likely/unlikely scale) ([Roche et al, 2020](https://journals.sagepub.com/doi/abs/10.1177/0734016820978827?journalCode=cjra))
 
   - should use benchmark (Ansolabehere, Meredith, & Snowberg, 2013)
 
-    > eg. give historical range
+    > eg. give historical range and the average value within that range
 
-- [ ] 13. anchoring vignette (compare to vignette, not used a lot in crim)
+- [ ] 13. [anchoring vignette](https://gking.harvard.edu/vign/eg/democracy.shtml) (compare to vignette, not used a lot in crim) by [Gary King](https://gking.harvard.edu/files/vign-chinap.pdf)
 
-  > eg. below Moses, above Moses, or equal to Moses
+  > 2 assumptions (often met): response consistency  & stem equivalence (the interpretations of the question stems are the same; respondents only differ in the interpretation of the response options)
 
-  - ensure comparability of responses
+  - ensure comparability of responses (to standardize reponses) (Figure 1 in [King et al, 2004](https://dash.harvard.edu/bitstream/handle/1/3965182/King_EnhancingtheValidity.pdf))
+
   - compare to 2 persons 
     - ordering of the vignette
-    - don't use direct comparison, since respondents tend to satisfice
+    
+    - don't use direct comparison (one single question), since respondents tend to satisfice ([Hopkins & King, 2011](https://gking.harvard.edu/files/gking/files/implement.pdf))
+    
+      >  eg. "below Moses, above Moses, or equal to Moses;" almost everyone says equal to
+    
+  - ask the vignette after or before self-assessment: researchers should move vignettes to before the self-assessments in order to prime and to correct responses ([Hopkins & King, 2011](https://gking.harvard.edu/files/gking/files/implement.pdf))
 
 - [ ] 14. focal answers in numerical questions
 
-  - select more than you would expect that people tend to be drawn to
+  - when you can't use benchmarks you often get focal answers
 
-    > eg. choose among 0, 50, 100 (multiples of 5), normally modal is 50 (representing rounding or don't know)
+  - select more than you would expect that people tend to be drawn to (de Bruin, Fischhoff, Millstein, & HalpernFelsher, 2000; Hurd, 2009; [Manski, 2004, p. 18](https://cepr.org/sites/default/files/4797-final.pdf))
+
+    > eg. focal answers: 0, 50, 100, and multiples of 5, normally modal is 50. Numbers like 0 and 100 are not meaningless, they actually have predicted value; (100 represents rounding, 50 means don't know)
 
 - [ ] 15. violating conversational conventions (how people usually talk)?
 
-  - convention: affirmative first; if against comes before for, it reduces response quality
-  - number of irrelative thoughts distracts the respondents
+  - Make the questions sound as natural as possible
+  - convention: affirmative first; if against comes before for, it reduces response quality ([Holbrook et al., 2000](https://pprg.stanford.edu/wp-content/uploads/2000-Violating-Conversational-Conventions.pdf)); same with the response option, see [19 in Pitfalss/check list](#pitfallscheck-list). 
+    - increase response time
+    - increase the number of irrelevant thoughts (distracting)
 
 - [ ] 16. number of response categories: 4 to 5 
 
-  - 5 vs 7: overall quality 0.53 vs 0.39
-  - unipolar vs bipolar: more categories, less reliable
+  - 5 vs 7: overall quality 0.53 vs 0.39; more categories, less reliable ([Revilla, Saris & Krosnick, 2014](https://pprg.stanford.edu/wp-content/uploads/Choosing-the-Number-of-Categories-in-Agree-Disagree-Scales-Revilla-M.-Saris-W.-Krosnick-J..pdf))
+  - unipolar (not satisfied at all to very satisfied) vs bipolar (very dissatisfied to very satisfied): the more options you have, the less reliable  ([Alwin, Baumgartner & Beattie, 2018](https://academic.oup.com/jssam/article-abstract/6/2/212/4201741))
 
 - [ ] 17. information in question stem should reduce social desirability bias
 
-  - quality best when use straightforward questions
+  - quality best when use straightforward/direct questions with naturally ordered response (from affirmative to dis-affirmative)
 
-    >  eg. some people, other people
+    >  eg. "some people... other people" ([Yeager & Krosnick, 2012](https://academic.oup.com/poq/article/76/1/131/1894899?login=true))
+    >
+    >  - average number of words of some-other question is 40; average for other questions is 26; long is bad.
+    >  - mentioning some...other causes people to think of the population distribution and to assume it's balanced/evenly split on both sides (distracting)
 
-- [ ] 18. information in response categories should look like population distribution
+- [ ] 18. information in response categories should look like population distribution  ([Dillman, Smyth, and Christian, 2014, p. 162](https://www.wiley.com/en-us/Internet%2C+Phone%2C+Mail%2C+and+Mixed+Mode+Surveys%3A+The+Tailored+Design+Method%2C+4th+Edition-p-9781118456149))
 
   - people assume the options are evenly split
   - people assume the middle one is average
 
-- [ ] 19. stems and response options should match (otherwise response time will increase)
+- [ ] 19. stems and response options should match (otherwise response time will increase and error occurs) ([Smyth & Olson, 2019](https://academic.oup.com/jssam/article/7/1/34/4989440?login=true))
+
+  - one of the most common error
+
+  - the phrasing of the question stem should match the ordering of the response options
+
+    > eg. If the response options are agree and disagree, the question stem should be how much do you agree or disagree
+
+  - respondents should know what to expect by reading the question stems
+
+    > eg. Q: **What** is the most important issue? Respondents will consider it as an open-ended question. If you list options, you should ask a question that will be considered as a close-ended one: Q: **Which one of the following** is the most important issue? 
 
 
 
 ## Redflag words in question wording
 
 - [ ] and (maybe double-barreled)
-- [ ] not (respondents may overlook not; negative questions)
+- [ ] not (respondents may overlook not; negation)
 - [ ] or (false dilemma)
-- [ ] if (confusing)
+- [ ] if (confusing; more difficult to comprehend)
 
 ---
 
@@ -335,9 +404,11 @@ respond in similar consistent way, regardless of the context
 
 ## Avoid breakoffs
 
+> meta analyses show breakoff rate between 16%-32% 
+
 1. incentives
 2. length (the sample - decide - reconsider model)
-   - 20-minute survey 20% breakoff rate compared to a 10-min one
+   - a 20-minute survey has a 20% higher breakoff rate compared to a 10-min one; a 30-minute survey has a 40% higher breakoff rate
 3. section-transition
    - try not to use too many section transition
    - avoid complicated questions on the first page (otherwise respondents will anticipate burden)
@@ -568,13 +639,13 @@ respond in similar consistent way, regardless of the context
    > Caution:
    >
    > - matrix questions are automatically transformed to single questions on smartphones
-   > - should consider the effect of different formats; see mobile device instructions in [Distribute web survey](# Distribute web survey)
+   > - should consider the effect of different formats; see mobile device instructions in [Distribute web survey](#distribute-web-survey)
 
 6. open-ended questions
 
    - should avoid because it is harder to type
 
-   - size of text box affects responses, see open-ended question in [Ensure consistent response](# Ensure consistent response)
+   - size of text box affects responses, see open-ended question in [Ensure consistent response](#ensure-consistent-response)
 
    - provide more information if question stems are easily confusing
 

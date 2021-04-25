@@ -449,7 +449,7 @@ shoot for two types of validity
 
    - subject line
 
-     - don't put recepient's name in the subject line
+     - don't put recipient's name in the subject line
 
      - avoid words that will be spam-filtered
 

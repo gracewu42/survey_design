@@ -408,7 +408,7 @@ shoot for two types of validity
 
 1. incentives
 2. length (the sample - decide - reconsider model)
-   - a 20-minute survey has a 20% higher breakoff rate compared to a 10-min one; a 30-minute survey has a 40% higher breakoff rate
+   - a 20-minute survey has a 20% higher breakoff rate compared to a 10-min one; a 30-minute survey has a 40% higher breakoff rate (See [8 in Basic design](#basic-design))
 3. section-transition
    - try not to use too many section transition
    - avoid complicated questions on the first page (otherwise respondents will anticipate burden)
@@ -426,7 +426,7 @@ shoot for two types of validity
 
 2. pay attention to the screen resolution and security settings requirement when designing web survey
 
-   - 1% - 5% people have script-disabled, as a result the interative content cannot be displayed
+   - 1% - 5% people have script-disabled, as a result the interactive content cannot be displayed
    - allow the survey to be displayed under the lowest screen resolution possible
 
 3. consistency in display
@@ -435,17 +435,15 @@ shoot for two types of validity
 
 4. mobile device
 
-   >  disadvantages: take the whole screen, force people to scroll, less visibility; takes longer to download
+   >  disadvantages: display differently; take the whole screen, force people to scroll, less visibility; takes longer to load
    >
-   > eg. a 10-min survey takes 2 min longer to load on smartphone compared to desktop
+   > eg. a 10-min survey takes 2 min longer to complete on a smartphone compared to desktop; a 20-min web survey takes 6 min longer on a smart phone to complete
 
    - put on note discouraging participation via mobile device
 
-   > eg. *... but take much longer if you are using a smartphone*
+   > eg. *The survey should take about 15 minutes to complete, but may take much longer if you are using a smartphone*
    >
-   > very few respondents do the survey on smartphone when told not to do so (works)
-   >
-   > some respondents do the survey on computer when told not to do so 
+   > very few respondents do the survey on smartphone when told not to do so (works; 97% followed the direction); some respondents do the survey on computer when told not to do so (about half did it anyway)
 
 5. email invitation
 
@@ -493,25 +491,26 @@ shoot for two types of validity
    > - readability & meaning: legible, easy to read in computer screen; color meaning, infer meaning, contrast issue
    > - contrast between font and background should be strong so that fonts jumps out
 
-   - serif (like Times New Roman)vs san serif (like Arial): use san serif
-     - Arial: font preference
+   - serif (like Times New Roman; has more detail)vs san serif (like Arial): use san serif fonts that are common
+     - Arial: font preference for most people
      - Tahoma: read fast
-   - use black font on light color (white) background, use light blue if needs coloring
+   - use black font on light color (white) background, use light blue if needs coloring 
+   - color fucks up contrast and it communicates meaning: red means passion/anger; yellow can mean warm/sick; blue tends to mean depress/down
    - patterned background not recommended because it distracts people and slow them down
 
 2. header, footer, &  respondent region
 
    - title in the header
    - contact information in the footer
-   - questionnaire stays in the middle, within the respondent region, don't deviate from it
+   - questionnaire stays in the middle (the respondent region), don't deviate from it
    - header, footer, and respondent region should be consistent across the questionnaire
 
 3. page layout & alignment
 
    > Real-world eye-tracker shows:
    >
-   > - upper left proportion is where their eyes start, stay longest, and linger longest
-   > - bottom right is the least visible part
+   > - the upper left proportion is where the eyes start, stay longest, and linger longest
+   > - the bottom right is the least visible part
    > - banner blindness: respondents don't look at the banner again / ignore the banner once start
 
    - Left line your question; align on top left
@@ -522,21 +521,21 @@ shoot for two types of validity
    > advantages of paging: 
    >
    > - send every page
-   > - navigation
-   > - give you more control over delivery (like skip order)
-   > - most of the time more than 1 question in a page
+   > - easier navigation
+   > - give you more control over delivery (like skip pattern, force answering, and question order)
+   > - most common design: more than 1 question in a page
    >
-   > problemss of scrolling:
+   > problems of scrolling:
    >
-   > - data is not sent until finish
+   > - data are not sent until you finish
    >
    > - increase item nonresponse because people may accidentally scroll past a question
    >
-   > - longer completion time
+   > - longer completion time (the longer the questionnaire, the smaller the scroll bar, the more precise a movement you would need to get to the exact question you are trying to see)
    >
    > - respondents may change their answer accidentally
    >
-   >   eg. drop box: if you scroll down without clicking outside, your answer changes
+   >   > eg. drop box: if you scroll down without clicking outside, your answer changes
    >
    > - if the questionnaire is long, the slide bar will be smaller, it's harder to get to the position accurately
    > - harder to do on smartphone
@@ -546,22 +545,21 @@ shoot for two types of validity
    - sometimes necessary for screening questions
    - other than that, shouldn't do it
 
-   > Concerns:
+   > concerns:
    >
    > - if the respondents don't want to answer, they drop or lie
-   > - inconsistent with voluntary survey requirement, IRB doesn't like it
+   > - inconsistent with voluntary survey requirement, IRBs don't like it
 
 6. progress indicator (like 25% complete): don't use it 
 
-   > Concerns:
-   >
-   > - it is encouraging based on the assumption that each question takes the same time, but it is often not the case
+   > concerns:
+   > - it is encouraging based on the assumption that each question takes the same amount of time, but it is often not the case. It is hard to give people feedback that is encouraging
    > - if open-ended question on the first page and there is progress indicator, respondents feel the indicator lies to them and will be pissed off
-   > - if it moves fast at the beginning but slowly at the end (hard question at the end): less likely to skip, item nonresponse rate decreases, breakoff rate decreases
+   > - if it moves fast at the beginning but slowly at the end (hard question at the end): encouraging; less likely to skip, item nonresponse rate decreases, breakoff rate decreases; it motivates people to complete later more difficult tasks ([Conrad et al., 2010](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2910434/))
    > - if it moves slowly at the beginning but fast at the end: discouraging
+   > - later meta analyses show the progress indicators do not help and they can hurt ([Villar, Callegaro, and Yang, 2013](https://journals.sagepub.com/doi/10.1177/0894439313497468))
 
    - can do it in an intermittent way: indicator only pop up in transition
-   - can make it always on demand: don't help at all, but won't hurt
    - without using a progress indicator, the first part of the questionnaire is the key; if the respondents complete the first part faster, they like the survey better, then they stick to it, answer hard questions, and it benefits the whole questionnaire
 
 7. error messages: use them and tailor them to specific questions
@@ -569,13 +567,13 @@ shoot for two types of validity
    - tell the respondents what they did wrong
    - don't just tell them the answer does not match what we need
 
-8. questionnaire length
+8. questionnaire length 
 
-   - follow the 15-min cutoff
+   - web surveys should not be longer than 10 minutes and follow the 15-min ultimate cutoff
    - 8-10 min average
    - have lay persons take the survey, time them to test the length
 
-   > Concerns: longer questionnaire, higher breakoff rate; self report engagement decreases as length increases
+   > Concerns: longer questionnaire, higher breakoff rate; self report engagement decreases as length increases ([Galesic and Bosnjak, 2009](https://www.jstor.org/stable/25548084?seq=1))
 
 
 
@@ -583,83 +581,84 @@ shoot for two types of validity
 
 1. selective emphasis and instructions
    - don't use italics to emphasize, italics is harder to read than non-italics
-   - don't use underline and color to emphasize, respondents will assume it is a link
-   - use capitalization to emphasize (helpful, but distracting if used too much)
-   - use same font and size for question stem and response options, but balded the stem, keep the response options not balded 
-   - use italics for instructions (indicating optional, don't have to read)
+   - don't use underline and color to emphasize, respondents will assume it is a clickable link
+   - use **capitalization to emphasize** (helpful, but distracting if used too much); this is a strong convention in web survey
+   - use same font and size for question stem and response options, but **balded the stem**, keep the response options not balded 
+   - use **italics for instructions** (indicating optional, don't have to read)
    - don't place definition & instructions in navigational path because people will miss it
    - put the instructions between the stems/before the question stem
 
 2. definitions & explanations in case that respondents don't know what the words mean
 
-   - scroll/click to pop up vs automatically pop up vs base on age vs build into question stem: put in actual question
+   - scroll over/click to pop up vs automatically pop up vs base on age vs build into question stem: **put in actual question**
 
-     > advantages: visibility & easy so that people use it more; respondents can be deterred by little bit of effort
+     > advantages: visibility & easy so that people use it more; respondents can be deterred by even a little bit of effort; ensure consistency (different people answer the same question)
      
-   - don't place definition & instructions in navigational path because people will miss it
+   - place definition & instructions in the navigational path otherwise people will miss it; don't put them after the question stem and response categories ([Dillman, Smyth, and Christian, 2014, p. 188](https://www.wiley.com/en-us/Internet%2C+Phone%2C+Mail%2C+and+Mixed+Mode+Surveys%3A+The+Tailored+Design+Method%2C+4th+Edition-p-9781118456149))
 
 
 
 ## Response format & scales
 
-1. strong convention about response format, need to follow it
+1. strong convention about response types you can use, need to follow it
 
    - radio button for single choice questions
 
    - check box for multiple answer questions (check all that apply)
 
-   - Drop boxes for nonvisible answers (like states)
+   - Drop boxes with nonvisible answers (like states)
 
    - never use scroll boxes with some options visible 
 
-     > Concerns: visibility has priming effects; every format produces some priming effects; scroll boxes have the biggest priming effect
+     > Concerns: visibility has moderating effects on effects; every format produces some primacy effects; scroll boxes have the biggest primacy effect ([Couper et al., 2004](https://journals.sagepub.com/doi/10.1177/0894439303256555))
 
-2. alignment of response options: vertical vs horizontal vs mixed: use vertical
+1. alignment of response options: vertical vs horizontal vs mixed: use vertical
 
    - multiple columns artificially increase the response of first option in the second column / the second category in the first row
    - vertical alignment minimizes sideway scroll when displaying on a smartphone
 
-3. visual analog scale vs discrete response scale: use discrete response scale
+2. visual analog scale vs discrete response scale: use discrete response scale
 
-   > Concerns about visual analog scale:
+   > Concerns about visual analog scale ([Funke, 2016](https://journals.sagepub.com/doi/10.1177/0894439315575477)):
    >
+   > - takes longer
    > - high breakoff rate when using visual analog scale, increases item missing
    > - require script/flash to display, people may have it blocked
    > - people not familiar with it, therefore don't like it, especially for the older and less educated group
 
-4. running tallies (like sum up to 100): use it to improve the quality of answers
+3. running tallies (like sum up to 100): use it to improve the quality of answers
 
-   > still have concerns like arbitrarily adjusting to get 100, but did a better job
+   > still have concerns like arbitrarily adjusting to get 100, but did a better job compared to American Time-Use Survey ([Conrad et al, 2009](https://www.coursera.org/lecture/data-collection-methods/2-3-1-progress-indicators-running-tallies-t8xf9))
 
-5. grid/matrix questions
+4. grid/matrix questions
 
    - shade out the rows completed to avoid accidentally skipping 
    - shade by the row, not by cell
 
    > Caution:
-   >
+   > - faster to do; but can accidentally miss one or click the wrong one
    > - matrix questions are automatically transformed to single questions on smartphones
    > - should consider the effect of different formats; see mobile device instructions in [Distribute web survey](#distribute-web-survey)
 
-6. open-ended questions
+5. open-ended questions
 
-   - should avoid because it is harder to type
+   - should avoid because it is harder to type in smart phones
 
-   - size of text box affects responses, see open-ended question in [Ensure consistent response](#ensure-consistent-response)
+   - size/type of text box affects responses, see open-ended question in [Ensure consistent response](#ensure-consistent-response)
 
    - provide more information if question stems are easily confusing
 
      > eg. county vs country: when asking for the name of the county, it is better to specify within US to avoid mistaking it for country, like asking the respondents to provide US county name
 
-7. number effect of scale points
+6. number effect of scale points
 
-   - don't use negative numbers 
+   - don't use numbers, if you have to use numbers, positive numbers go with what people assume; negative numbers cause an artificial effect (don't use)
 
-     > eg. scale from 1 - 5 is different from scale from -2 - 2, respondents tend to go to 2 most positive categories
+     > eg. scale from 1 - 5 is different from scale from -2 - 2, respondents tend to go to 2 most positive categories ([Tourangeau, Couper, & Conrad, 2007](https://academic.oup.com/poq/article-abstract/71/1/91/1886357?redirectedFrom=fulltext))
 
-   - don't use color 
+   - don't use color for response options
 
-8. picture: don't use unless you have to 
+7. picture: don't use unless there is a theoretical or purposeful reason to do it (don't just do it because you can)
 
    > Concerns:
    >
@@ -668,7 +667,9 @@ shoot for two types of validity
    >   - contrast effect: go different/opposite to the picture 
    >   - eg. compared to a hospital lady, health evaluation increases
    > - recall information that can be inferred from pictures
+      > - eg. low frequency vs high frequency effects ([Couper, Tourangeau, & Kenyon, 2004](https://academic.oup.com/poq/article/68/2/255/1826935?login=true))
    > - narrow interpretations
+
 
 ## Response heuristics
 
@@ -677,9 +678,9 @@ shoot for two types of validity
 - middle means typical/central
 - left & top means first
 - near means related 
-- like (in apprearance) means close (in meaning)
+- like (in appearance) means close (in meaning)
 - up means good (upper/higher on screen: ranked favorably)
-- some labels outweight the others (verbal > numerical > color)
+- hierarchy of interpretive cues: some labels outweigh the others (verbal > numerical > color)
 
 
 

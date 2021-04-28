@@ -265,12 +265,11 @@ shoot for two types of validity
 - [ ] 4. question unbalanced? leading or suggesting an answer?
 
   - don't forget to mention the other side of information
+  > eg. "How much do you agree" is leading; you should ask "How much do you agree or disagree"
 
 - [ ] 5. prestige bias (someone people have positive or negative opinion about)?
 
   - don't unnecessarily include someone who the repondents will support or oppose
-
-    > eg. "How much do you agree" is leading; you should ask "How much do you agree or disagree"
 
 - [ ] 6. universal?
 
